@@ -183,7 +183,7 @@ Project Link: [https://github.com/Akranium/UTDR_Overflow_Dedector_V2](https://gi
 [issues-shield]: https://img.shields.io/github/issues/Akranium/UTDR_Overflow_Dedector_V2.svg?style=for-the-badge
 [issues-url]: https://github.com/Akranium/UTDR_Overflow_Dedector_V2/issues
 [license-shield]: https://img.shields.io/github/license/Akranium/UTDR_Overflow_Dedector_V2.svg?style=for-the-badge
-[license-url]: https://github.com/Akranium/UTDR_Overflow_Dedector_V2/blob/master/LICENSE
+[license-url]: https://github.com/Akranium/UTDR_Overflow_Dedector_V2/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mustafa-emre-olmez
 [product-screenshot]: images/screenshot.png
