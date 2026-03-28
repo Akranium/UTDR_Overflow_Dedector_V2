@@ -74,8 +74,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This project is created for the purposes of helping Undertale/Deltarune modders/translators write new dialogues in the game. The program reads the modified version of the JSON file and shows you the overflowing dialogues it detects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
