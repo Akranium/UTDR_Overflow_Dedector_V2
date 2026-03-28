@@ -95,36 +95,24 @@ This project is created for the purposes of helping Undertale/Deltarune modders/
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You only need to download the latest verison of Java. Download from [this link](https://www.oracle.com/in/java/) if you don't have it already.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Download the ZIP file of the latest version from [releases](https://github.com/Akranium/UTDR_Overflow_Dedector_V2/releases)
+2. Unzip the package
+
+### Running
+
+To run the program, you have 2 options:
+
+1. You can run the appropriate executable file located inside the program folder
+2. You can nevigate to the program folder in the terminal and run:
+
    ```sh
-   git clone https://github.com/Akranium/UTDR_Overflow_Dedector_V2.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin Akranium/UTDR_Overflow_Dedector_V2
-   git remote -v # confirm the changes
+   java --jar app.jar
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -134,27 +122,16 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To use the program:
+1. Replace the dummy raw.json file located in the "raw" folder with the JSON file you want to read.
+2. Rename your JSON file to "raw.json".
+3. Run the program.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+To see all the available commands, type "help".
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/Akranium/UTDR_Overflow_Dedector_V2/issues) for a full list of proposed features (and known issues).
+Please note that first time you run the program, there will be a lot of false-positives and false-negatives. This is because there is no way of knowing for sure what the dimensions of dialogue box will be, and the program defaults to the standard dialogue with profile. You need to update the dimensions manually for other types of dialogues. Update a dialogue with the "update" command. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -178,8 +155,6 @@ Don't forget to give the project a star! Thanks again!
   <img src="https://contrib.rocks/image?repo=Akranium/UTDR_Overflow_Dedector_V2" alt="contrib.rocks image" />
 </a>
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -197,18 +172,6 @@ E-Mail: akraniumemail132@gmail.com
 Project Link: [https://github.com/Akranium/UTDR_Overflow_Dedector_V2](https://github.com/Akranium/UTDR_Overflow_Dedector_V2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -234,7 +197,7 @@ Project Link: [https://github.com/Akranium/UTDR_Overflow_Dedector_V2](https://gi
 [Intellij-url]: https://www.jetbrains.com/idea/
 
 
-
+## An Important Note
 
 == We're Using GitHub Under Protest ==
 
