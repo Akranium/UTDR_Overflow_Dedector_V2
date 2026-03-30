@@ -22,7 +22,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![GPL-3.0 License][license-shield]][license-url]
+[![License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <h3 align="center">UTDR Overflow Dedector V2</h3>
@@ -183,7 +183,7 @@ Project Link: [https://github.com/Akranium/UTDR_Overflow_Dedector_V2](https://gi
 [issues-shield]: https://img.shields.io/github/issues/Akranium/UTDR_Overflow_Dedector_V2.svg?style=for-the-badge
 [issues-url]: https://github.com/Akranium/UTDR_Overflow_Dedector_V2/issues
 [license-shield]: https://img.shields.io/github/license/Akranium/UTDR_Overflow_Dedector_V2.svg?style=for-the-badge
-[license-url]: https://github.com/Akranium/UTDR_Overflow_Dedector_V2/blob/51a41aa213c3f5b88a548692bfd00b5baeb65b94/LICENSE
+[license-url]: https://github.com/Akranium/UTDR_Overflow_Dedector_V2/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mustafa-emre-olmez
 [product-screenshot]: images/screenshot.png
