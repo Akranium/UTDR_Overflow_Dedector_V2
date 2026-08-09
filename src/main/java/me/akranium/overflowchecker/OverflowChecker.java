@@ -7,6 +7,10 @@ public class OverflowChecker {
         String text = dialogue.getString();
         int maxChars = dialogue.getMaxChars();
         int maxLines = dialogue.getMaxLines();
+        return hasOverflow(text, maxChars, maxLines);
+    }
+
+    public boolean hasOverflow(String text, int maxChars, int maxLines) {
         if (text == null || text.isEmpty()) {
             return false;
         }

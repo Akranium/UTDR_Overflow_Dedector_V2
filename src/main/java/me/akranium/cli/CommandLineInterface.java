@@ -7,6 +7,8 @@ import me.akranium.util.exception.InvalidUserInputException;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CommandLineInterface {
 
@@ -41,7 +43,19 @@ public class CommandLineInterface {
 
     private void runCommands(String input) throws Exception {
         if (input.isBlank()) return;
-        String[] parts = input.trim().split("\\s+");
+
+        Pattern pattern = Pattern.compile("/\"((?:(?!/\").)*)/\"|(\\S+)");
+        Matcher matcher = pattern.matcher(input);
+
+        String[] parts = new String[(int) matcher.results().count()];
+        matcher.reset();
+
+        int i = 0;
+        while (matcher.find()) {
+            parts[i++] = matcher.group(1) != null
+                    ? matcher.group(1)
+                    : matcher.group(2);
+        }
 
         String commandName = parts[0];
         String[] args = Arrays.copyOfRange(parts, 1, parts.length);

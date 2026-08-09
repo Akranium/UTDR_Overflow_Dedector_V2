@@ -34,6 +34,12 @@ public class ApplicationService {
         dialogueState = jsonService.processJsons();
     }
 
+    public boolean checkLine(String text, int maxChars, int maxLines) {
+        Dialogue dialogue = new Dialogue("a", text, maxChars, maxLines);
+        ruleApplier.applyRules(dialogue);
+        return overflowChecker.hasOverflow(dialogue);
+    }
+
     public List<Dialogue> findOverflowDialogues() {
         List<Dialogue> overflowDialogues = new ArrayList<>();
 

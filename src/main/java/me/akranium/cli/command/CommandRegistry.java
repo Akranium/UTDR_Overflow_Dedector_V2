@@ -14,11 +14,12 @@ public class CommandRegistry {
     public CommandRegistry(ApplicationService appService) {
         this.commands = new HashMap<>();
         commands.put("help", new HelpCommand(this));
-        commands.put("exit", new ExitCommand());
+        commands.put("checkline", new CheckLineCommand(appService));
         commands.put("sync", new SyncCommand(appService));
         commands.put("update", new UpdateCommand(appService));
         commands.put("findoverflow", new FindOverflowCommand(appService));
         commands.put("findvariable", new FindVariableCommand(appService));
+        commands.put("exit", new ExitCommand());
     }
 
     public Command get(String name) {

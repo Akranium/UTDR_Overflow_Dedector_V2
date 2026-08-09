@@ -26,7 +26,7 @@ public class HelpCommand implements Command {
     public void execute(String[] args) {
         Map<String,Command> commandMap = registry.readOnlyAllCommands();
         commandMap.forEach((string,command) -> {
-            System.out.println(string + ": " + command.description());
+            System.out.println(string + ": " + command.description() + "\n");
         });
     }
 }
